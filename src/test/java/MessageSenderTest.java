@@ -2,10 +2,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.mockito.Mockito;
-import ru.netology.core.homework07.task1.entity.Country;
-import ru.netology.core.homework07.task1.entity.Location;
-import ru.netology.core.homework07.task1.geo.GeoService;
-import ru.netology.core.homework07.task1.i18n.LocalizationService;
+import ru.netology.entity.Country;
+import ru.netology.entity.Location;
+import ru.netology.geo.GeoService;
+import ru.netology.i18n.LocalizationService;
 import ru.netology.sender.MessageSenderImpl;
 
 import java.util.Map;
